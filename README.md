@@ -1,23 +1,17 @@
-# Obsidian CLI Skill
+# Archived Source Repository
 
-This repository is public and unarchived. It is kept as a maintenance mirror and migration reference for the `obsidian-cli` skill.
+This repository is no longer the canonical home for the Obsidian CLI skill.
 
-The canonical `obsidian-cli` skill lives here:
+Canonical location:
 
-- Repository: `LeoLin990405/claude-code-skills`
-- Path: `productivity/obsidian-cli`
+- `LeoLin990405/claude-code-skills`
+- `productivity/obsidian-cli`
 
-## Why
+What changed:
 
-`obsidian-cli` is now bundled directly into the canonical monorepo, so the monorepo is the preferred place for new feature work and install-flow updates.
+- the skill has been vendored into `claude-code-skills`
+- this standalone repository is kept only as a historical source and redirect pointer
 
-## Canonical Install
+Use or update the skill here:
 
-```bash
-git clone --recurse-submodules https://github.com/LeoLin990405/claude-code-skills.git
-ln -s "$PWD/claude-code-skills/productivity/obsidian-cli" ~/.claude/skills/obsidian-cli
-```
-
-## Maintenance
-
-This repository remains available for historical source context, issue triage, and small compatibility fixes when needed.
+- <https://github.com/LeoLin990405/claude-code-skills/tree/main/productivity/obsidian-cli>
